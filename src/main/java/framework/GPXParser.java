@@ -1,5 +1,7 @@
 package framework;
 
+import java.util.List;
+
 public interface GPXParser {
-    void readGPXFromPath(String filename);
+    List<TrackPoint> readGPXFromPath(String filename);
 }
