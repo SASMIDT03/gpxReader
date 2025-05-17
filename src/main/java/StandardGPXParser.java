@@ -13,7 +13,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class StandardGPXParser implements GPXParser {
 
     private Namespace namespace = Namespace.getNamespace("http://www.topografix.com/GPX/1/1");
@@ -44,7 +43,6 @@ public class StandardGPXParser implements GPXParser {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
 
         return trackPoints;
     }
